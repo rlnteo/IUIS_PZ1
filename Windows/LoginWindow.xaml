@@ -1,0 +1,158 @@
+﻿<Window x:Class="_90s_Minimalism_CMS_Project.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_90s_Minimalism_CMS_Project.Windows"
+        mc:Ignorable="d"
+        Title="NINETIES MINIMAL - CMS" 
+        Height="500" Width="400"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        FontFamily="Gill Sans MT">
+    <Border Background="{StaticResource BrushBackground}"
+            BorderBrush="{StaticResource BrushDivider}"
+            BorderThickness="1"
+            CornerRadius="10">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="28"/>
+                <RowDefinition Height="110"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0"
+                  Background="{StaticResource BrushInk}"
+                  MouseLeftButtonDown="Window_MouseLeftButtonDown">
+                <TextBlock Text="NINETIES MINIMAL · CMS"
+                           FontSize="9"
+                           Foreground="{StaticResource BrushMidtone}"
+                           VerticalAlignment="Center"
+                           Margin="12, 0, 0, 0"/>
+                <Button x:Name="CloseWindowButton"
+                        Content="✕"
+                        Width="28"
+                        Height="28"
+                        HorizontalAlignment="Right"
+                        FontSize="10"
+                        Foreground="{StaticResource BrushMidtone}"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Click="CloseWindowButton_Click"
+                        ToolTip="Close the application">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}"
+                                                Width="28"
+                                                Height="28">
+                                            <ContentPresenter HorizontalAlignment="Center"
+                                                              VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="{StaticResource BrushError}"/>
+                                                <Setter Property="Foreground" Value="{StaticResource BrushSurface}"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+
+            <Border Grid.Row="1" 
+                    Background="{StaticResource BrushInk}"
+                    Padding="28,20,28,20">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="NINETIES"
+                               FontFamily="Georgia"
+                               FontSize="26"
+                               FontWeight="Normal"
+                               Foreground="{StaticResource BrushBackground}"/>
+                    <Rectangle Height="1"
+                               Width="120"
+                               HorizontalAlignment="Left"
+                               Fill="{StaticResource BrushAccent}"
+                               Margin="0,8,0,8"/>
+                    <TextBlock FontFamily="Gill Sans MT"
+                               FontSize="9"
+                               Foreground="{StaticResource BrushAccent}">
+                        <Run Text="MINIMAL"/>
+                        <Run Text="  ·  " Foreground="{StaticResource BrushMidtone}" />
+                        <Run Text="CONTENT MANAGEMENT SYSTEM" />
+                    </TextBlock>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Grid.Row="2"
+                        Margin="28,24,28,24"
+                        VerticalAlignment="Top">
+                <TextBlock Text="USERNAME"
+                           Style="{StaticResource FieldLabel}"/>
+                <TextBox x:Name="UsernameTextBox"
+                         Height="32"
+                         Margin="0,4,0,0"
+                         Tag="Enter username"
+                         GotFocus="UsernameTextBox_GotFocus"
+                         LostFocus="UsernameTextBox_LostFocus"
+                         ToolTip="Enter your username"/>
+                <TextBlock x:Name="UsernameErrorText"
+                           Style="{StaticResource ErrorLabel}"
+                           Margin="0,3,0,0" />
+                <TextBlock Text="PASSWORD"
+                           Style="{StaticResource FieldLabel}"
+                           Margin="0,16,0,4"/>
+                <PasswordBox x:Name="PasswordBox"
+                             Height="32"
+                             Background="{StaticResource BrushSurface}"
+                             BorderBrush="{StaticResource BrushDivider}"
+                             BorderThickness="0,0,0,1"
+                             Padding="4,4"
+                             FontFamily="Gill Sans MT"
+                             FontSize="13"
+                             GotFocus="PasswordBox_GotFocus"
+                             ToolTip="Enter your password"/>
+                <TextBlock x:Name="PasswordErrorText"
+                           Style="{StaticResource ErrorLabel}"
+                           Margin="0,3,0,0"/>
+                <TextBlock x:Name="LoginErrorText"
+                           Foreground="{StaticResource BrushError}"
+                           FontSize="11"
+                           Margin="0,8,0,0"
+                           Visibility="Collapsed"
+                           TextWrapping="Wrap"/>
+                <Grid Margin="0,20,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="LoginButton"
+                            Grid.Column="0"
+                            Content="SIGN IN"
+                            Style="{StaticResource PrimaryButton}"
+                            Click="LoginButton_Click"
+                            IsDefault="True"
+                            Padding="0,10"
+                            ToolTip="Sign in with the entered credentials"/>
+                    <Button x:Name="ExitButton"
+                            Grid.Column="2"
+                            Content="EXIT"
+                            Style="{StaticResource GhostButton}"
+                            Click="ExitButton_Click"
+                            Padding="0,10"
+                            ToolTip="Close the application"/>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

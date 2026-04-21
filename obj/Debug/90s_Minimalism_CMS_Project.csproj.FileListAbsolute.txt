@@ -1,0 +1,120 @@
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Data\Users.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Data\FashionItems.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.exe.config
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.exe
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Notification.Wpf.dll
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\System.ValueTuple.dll
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Notification.Wpf.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Notification.Wpf.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\System.ValueTuple.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.AssemblyReference.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Pages\AddEditItemPage.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Pages\DataTablePage.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Windows\ItemDetailWindow.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Windows\LoginWindow.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\App.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_Content.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_MarkupCompile.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_MarkupCompile.lref
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\App.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\MainWindow.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Pages\AddEditItemPage.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Pages\DataTablePage.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Windows\ItemDetailWindow.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\Windows\LoginWindow.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.g.resources
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\_90s_Minimalism_CMS_Project.Properties.Resources.resources
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.GenerateResource.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Mini.61CDCADF.Up2Date
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.exe
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Data\Images\ck_jeans.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Data\Images\prada_skirt.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Data\Images\prada_top.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS_UPDATED\fixed_proj\bin\Debug\Data\Images\prada_white.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Users.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\FashionItems.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\ck_jeans.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\prada_skirt.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\prada_top.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\prada_white.png
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.exe.config
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.exe
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Notification.Wpf.dll
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\System.ValueTuple.dll
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Notification.Wpf.pdb
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\Notification.Wpf.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\bin\Debug\System.ValueTuple.xml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.AssemblyReference.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\AddEditItemPage.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\DataTablePage.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\ItemDetailWindow.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\LoginWindow.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\App.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_Content.g.cs
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_MarkupCompile.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_MarkupCompile.lref
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\App.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\MainWindow.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\AddEditItemPage.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\DataTablePage.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\ItemDetailWindow.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\LoginWindow.baml
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.g.resources
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\_90s_Minimalism_CMS_Project.Properties.Resources.resources
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.GenerateResource.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Mini.61CDCADF.Up2Date
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.exe
+C:\Users\Lenovo T480s\Downloads\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.pdb
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Users.xml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\FashionItems.xml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\ck_jeans.png
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\prada_skirt.png
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\prada_top.png
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Data\Images\prada_white.png
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.exe.config
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.exe
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\90s_Minimalism_CMS_Project.pdb
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Notification.Wpf.dll
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\System.ValueTuple.dll
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Notification.Wpf.pdb
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\Notification.Wpf.xml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\bin\Debug\System.ValueTuple.xml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.AssemblyReference.cache
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\AddEditItemPage.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\DataTablePage.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\ItemDetailWindow.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\LoginWindow.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\App.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_Content.g.cs
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_MarkupCompile.cache
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project_MarkupCompile.lref
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\App.baml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\MainWindow.baml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\AddEditItemPage.baml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Pages\DataTablePage.baml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\ItemDetailWindow.baml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\Windows\LoginWindow.baml
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.g.resources
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\_90s_Minimalism_CMS_Project.Properties.Resources.resources
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.GenerateResource.cache
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Mini.61CDCADF.Up2Date
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.exe
+C:\Users\Lenovo T480s\Desktop\ftn\treca godina\hci\projekat\90s_Minimalism_CMS\fixed_proj\obj\Debug\90s_Minimalism_CMS_Project.pdb

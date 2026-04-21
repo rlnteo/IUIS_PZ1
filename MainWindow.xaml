@@ -1,0 +1,98 @@
+<Window x:Class="_90s_Minimalism_CMS_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_90s_Minimalism_CMS_Project"
+        xmlns:notifications="clr-namespace:Notification.Wpf.Controls;assembly=Notification.Wpf"
+        mc:Ignorable="d"
+        Title="NINETIES MINIMAL CMS"
+        MinHeight="680"
+        MinWidth="1000"
+        Height="700"
+        Width="1060"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource BrushBackground}"
+        Closing="Window_Closing">
+    <Grid>
+        <notifications:NotificationArea
+            x:Name="WindowNotificationArea"
+            Panel.ZIndex="1000"
+            MaxItems="3"
+            Position="TopRight"/>
+        <DockPanel>
+            <Border DockPanel.Dock="Top"
+                    Background="{StaticResource BrushInk}"
+                    Height="56">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0"
+                                Orientation="Horizontal"
+                                VerticalAlignment="Center"
+                                Margin="24,0,0,0">
+                        <TextBlock Text="NINETIES"
+                                   FontFamily="Georgia"
+                                   FontSize="18"
+                                   Foreground="{StaticResource BrushBackground}"
+                                   VerticalAlignment="Center"/>
+                        <Rectangle Width="1"
+                                   Fill="{StaticResource BrushAccent}"
+                                   Margin="12,4,12,4"/>
+                        <TextBlock Text="MINIMAL"
+                                   FontFamily="Gill Sans MT"
+                                   FontSize="11"
+                                   Foreground="{StaticResource BrushAccent}"
+                                   VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center">
+                        <Button x:Name="NavCollectionButton"
+                                Content="COLLECTION"
+                                Style="{StaticResource GhostButton}"
+                                Foreground="{StaticResource BrushBackground}"
+                                BorderBrush="Transparent"
+                                Click="NavCollectionButton_Click"
+                                ToolTip="View the fashion collection"
+                                FontSize="11"/>
+                        <Button x:Name="NavAddButton"
+                                Content="+ ADD PIECE"
+                                Style="{StaticResource GhostButton}"
+                                Foreground="{StaticResource BrushAccent}"
+                                BorderBrush="Transparent"
+                                Click="NavAddButton_Click"
+                                ToolTip="Add a new fashion piece"
+                                FontSize="11"
+                                Visibility="Collapsed"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2"
+                                Orientation="Horizontal"
+                                VerticalAlignment="Center"
+                                Margin="0,0,20,0">
+                        <TextBlock x:Name="UserInfoText"
+                                   Foreground="{StaticResource BrushMidtone}"
+                                   FontSize="11"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,16,0" />
+                        <Button x:Name="ExitButton"
+                                Content="SIGN OUT"
+                                Style="{StaticResource GhostButton}"
+                                Foreground="{StaticResource BrushBackground}"
+                                BorderBrush="{StaticResource BrushMidtone}"
+                                Click="ExitButton_Click"
+                                ToolTip="Return to login screen"
+                                FontSize="10"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Frame x:Name="MainFrame"
+                   DockPanel.Dock="Bottom"
+                   NavigationUIVisibility="Hidden"/>
+        </DockPanel>
+    </Grid>
+</Window>

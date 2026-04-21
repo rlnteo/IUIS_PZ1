@@ -1,0 +1,244 @@
+﻿<Page x:Class="_90s_Minimalism_CMS_Project.Pages.AddEditItemPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_90s_Minimalism_CMS_Project.Pages"
+      Title="Add / Edit Fashion Piece">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="40,30,40,40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Margin="0,0,0,28">
+                <TextBlock x:Name="PageTitleText"
+                           Text="ADD NEW PIECE"
+                           FontFamily="Georgia"
+                           FontSize="28"
+                           Foreground="{StaticResource BrushInk}"/>
+                <Rectangle Height="1"
+                           Fill="{StaticResource BrushDivider}"
+                           Margin="0,12,0,0"/>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="32"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <StackPanel Margin="0,0,0,20">
+                        <TextBlock Text="NAME *" Style="{StaticResource FieldLabel}"/>
+                        <TextBox x:Name="NameTextBox"
+                                 Height="36"
+                                 Tag="e.g. Slip Dress in Silk Charmeuse"
+                                 GotFocus="NameTextBox_GotFocus"
+                                 LostFocus="NameTextBox_LostFocus"
+                                 ToolTip="Enter the name of the fashion piece"/>
+                        <TextBlock x:Name="NameError" Style="{StaticResource ErrorLabel}"/>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,20">
+                        <TextBlock Text="DESIGNER *" Style="{StaticResource FieldLabel}"/>
+                        <TextBox x:Name="DesignerTextBox"
+                                 Height="36"
+                                 Tag="e.g. Calvin Klein"
+                                 GotFocus="DesignerTextBox_GotFocus"
+                                 LostFocus="DesignerTextBox_LostFocus"
+                                 ToolTip="Enter the designer's name"/>
+                        <TextBlock x:Name="DesignerError" Style="{StaticResource ErrorLabel}"/>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,20">
+                        <TextBlock Text="PRICE (USD) *" Style="{StaticResource FieldLabel}"/>
+                        <TextBox x:Name="PriceTextBox"
+                                 Height="36"
+                                 Tag="e.g. 450.00"
+                                 GotFocus="PriceTextBox_GotFocus"
+                                 LostFocus="PriceTextBox_LostFocus"
+                                 ToolTip="Enter the retail price in USD"/>
+                        <TextBlock x:Name="PriceError" Style="{StaticResource ErrorLabel}"/>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,20">
+                        <TextBlock Text="CATEGORY *" Style="{StaticResource FieldLabel}"/>
+                        <ComboBox x:Name="CategoryComboBox"
+                                  Height="36"
+                                  ToolTip="Select a fashion category"/>
+                        <TextBlock x:Name="CategoryError" Style="{StaticResource ErrorLabel}"/>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,20">
+                        <TextBlock Text="IMAGE *" Style="{StaticResource FieldLabel}"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="8"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="ImagePathTextBox"
+                                     Grid.Column="0"
+                                     Height="36"
+                                     IsReadOnly="True"
+                                     Background="{StaticResource BrushBackground}"
+                                     Text="No image selected"
+                                     Foreground="{StaticResource BrushMidtone}"
+                                     ToolTip="Image file path (selected via browser)"/>
+                            <Button Grid.Column="2"
+                                    Content="BROWSE"
+                                    Style="{StaticResource GhostButton}"
+                                    Height="36"
+                                    Padding="14,0"
+                                    FontSize="11"
+                                    Click="BrowseImageButton_Click"
+                                    ToolTip="Choose an image file from your computer"/>
+                        </Grid>
+                        <TextBlock x:Name="ImageError" Style="{StaticResource ErrorLabel}"/>
+                        <Border Margin="0,10,0,0"
+                                BorderBrush="{StaticResource BrushDivider}"
+                                BorderThickness="1"
+                                Width="240" Height="160"
+                                HorizontalAlignment="Left"
+                                Background="{StaticResource BrushSurface}">
+                            <Grid>
+                                <TextBlock x:Name="ImagePreviewPlaceholder"
+                                           Text="Image Preview"
+                                           Foreground="{StaticResource BrushMidtone}"
+                                           FontSize="11"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+                                <Image x:Name="ImagePreview"
+                                       Stretch="UniformToFill"
+                                       Visibility="Collapsed"/>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Grid.Column="2">
+                    <TextBlock Text="EDITORIAL NOTES *" Style="{StaticResource FieldLabel}"/>
+                    <TextBlock Text="Rich text editor — content is saved as the RTF file"
+                               FontSize="10"
+                               Foreground="{StaticResource BrushMidtone}"
+                               Margin="0,0,0,8"/>
+                    <Border Background="{StaticResource BrushSurface}"
+                            BorderBrush="{StaticResource BrushDivider}"
+                            BorderThickness="1,1,1,0"
+                            Padding="6,4">
+                        <WrapPanel Orientation="Horizontal">
+                            <ToggleButton x:Name="BoldToggleButton"
+                                          Width="32" Height="28"
+                                          Margin="2"
+                                          ToolTip="Bold (Ctrl+B)"
+                                          Cursor="Hand"
+                                          Command="EditingCommands.ToggleBold"
+                                          CommandTarget="{Binding ElementName=DescriptionRichTextBox}">
+                                <TextBlock Text="B" FontWeight="Bold" FontSize="13"
+                                           Foreground="{StaticResource BrushInk}"/>
+                            </ToggleButton>
+                            <ToggleButton x:Name="ItalicToggleButton"
+                                          Width="32" Height="28"
+                                          Margin="2"
+                                          ToolTip="Italic (Ctrl+I)"
+                                          Cursor="Hand"
+                                          Command="EditingCommands.ToggleItalic"
+                                          CommandTarget="{Binding ElementName=DescriptionRichTextBox}">
+                                <TextBlock Text="I" FontStyle="Italic" FontSize="13"
+                                           Foreground="{StaticResource BrushInk}"/>
+                            </ToggleButton>
+                            <ToggleButton x:Name="UnderlineToggleButton"
+                                          Width="32" Height="28"
+                                          Margin="2"
+                                          ToolTip="Underline (Ctrl+U)"
+                                          Cursor="Hand"
+                                          Command="EditingCommands.ToggleUnderline"
+                                          CommandTarget="{Binding ElementName=DescriptionRichTextBox}">
+                                <TextBlock Text="U" TextDecorations="Underline" FontSize="13"
+                                           Foreground="{StaticResource BrushInk}"/>
+                            </ToggleButton>
+
+                            <Separator Width="1" Height="20" Margin="4,0"
+                                       Background="{StaticResource BrushDivider}"/>
+                            <ComboBox x:Name="FontFamilyComboBox"
+                                      Width="160" Height="28"
+                                      ToolTip="Change font family"
+                                      SelectionChanged="FontFamilyComboBox_SelectionChanged">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}" FontFamily="{Binding}" FontSize="13"/>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                            <ComboBox x:Name="FontSizeComboBox"
+                                      Width="60" Height="28"
+                                      Margin="2"
+                                      ToolTip="Change font size"
+                                      SelectionChanged="FontSizeComboBox_SelectionChanged"/>
+
+                            <Separator Width="1" Height="20" Margin="4,0"
+                                       Background="{StaticResource BrushDivider}"/>
+                            <ComboBox x:Name="FontColorComboBox"
+                                      Width="130" Height="28"
+                                      Margin="2"
+                                      ToolTip="Change text color"
+                                      SelectionChanged="FontColorComboBox_SelectionChanged">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                            <Rectangle Width="16" Height="14"
+                                                       Fill="{Binding Brush}"
+                                                       Margin="0,0,6,0"
+                                                       Stroke="#AAAAAA"
+                                                       StrokeThickness="0.5"/>
+                                            <TextBlock Text="{Binding Name}" FontSize="12"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </WrapPanel>
+                    </Border>
+                    <RichTextBox x:Name="DescriptionRichTextBox"
+                                 Height="340"
+                                 BorderBrush="{StaticResource BrushDivider}"
+                                 BorderThickness="1"
+                                 Padding="10"
+                                 FontFamily="Gill Sans MT"
+                                 FontSize="13"
+                                 Background="{StaticResource BrushSurface}"
+                                 SelectionChanged="DescriptionRichTextBox_SelectionChanged"
+                                 TextChanged="DescriptionRichTextBox_TextChanged"
+                                 ToolTip="Write editorial notes about this fashion piece"/>
+
+                    <Border Background="{StaticResource BrushSurface}"
+                            BorderBrush="{StaticResource BrushDivider}"
+                            BorderThickness="1,0,1,1"
+                            Padding="8,4">
+                        <TextBlock x:Name="WordCountText"
+                                   FontSize="10"
+                                   Foreground="{StaticResource BrushMidtone}"
+                                   Text="0 WORDS"/>
+                    </Border>
+
+                    <TextBlock x:Name="DescriptionError" Style="{StaticResource ErrorLabel}"/>
+                </StackPanel>
+            </Grid>
+            <Border Grid.Row="2"
+                    BorderBrush="{StaticResource BrushDivider}"
+                    BorderThickness="0,1,0,0"
+                    Margin="0,28,0,0"
+                    Padding="0,20,0,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="CANCEL"
+                            Style="{StaticResource GhostButton}"
+                            Width="120"
+                            Click="Cancel_Click"
+                            ToolTip="Discard changes and go back"
+                            Margin="0,0,12,0"/>
+                    <Button x:Name="SaveButton"
+                            Content="SAVE PIECE"
+                            Style="{StaticResource PrimaryButton}"
+                            Width="160"
+                            Click="SaveButton_Click"
+                            ToolTip="Save this fashion piece to the collection"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Page>

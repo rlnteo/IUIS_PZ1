@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|c:\\users\\lenovo t480s\\desktop\\ftn\\treca godina\\hci\\projekat\\90s_minimalism_cms\\fixed_proj\\pages\\datatablepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\datatablepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|c:\\users\\lenovo t480s\\desktop\\ftn\\treca godina\\hci\\projekat\\90s_minimalism_cms\\fixed_proj\\pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataTablePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\DataTablePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\DataTablePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\DataTablePage.xaml.cs",
+              "RelativeToolTip": "Pages\\DataTablePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T17:01:56.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEditItemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\AddEditItemPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddEditItemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\AddEditItemPage.xaml.cs",
+              "RelativeToolTip": "Pages\\AddEditItemPage.xaml.cs",
+              "ViewState": "AgIAAO0BAAAAAAAAAAAAAOQBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T13:07:54.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Windows\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Windows\\LoginWindow.xaml",
+              "RelativeToolTip": "Windows\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T13:02:42.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 182,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

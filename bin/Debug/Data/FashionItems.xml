@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfFashionItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FashionItem>
+    <Name>Cashmere Skirt</Name>
+    <Designer>Miuccia Prada</Designer>
+    <Price>3000</Price>
+    <Category>Skirts</Category>
+    <ImagePath>Data\Images\prada_skirt.png</ImagePath>
+    <RtfFilePath>Data\Rtf\1cf7746b-6201-4a85-8bc3-41c60de51852.rtf</RtfFilePath>
+    <DateAdded>2026-04-17T15:11:08.9526054+02:00</DateAdded>
+  </FashionItem>
+  <FashionItem>
+    <Name>Prada Dress</Name>
+    <Designer>Miuccia Prada</Designer>
+    <Price>7000</Price>
+    <Category>Dresses</Category>
+    <ImagePath>Data\Images\prada_white.png</ImagePath>
+    <RtfFilePath>Data\Rtf\94cb5a3e-5dea-48a1-8656-d53689fa39d5.rtf</RtfFilePath>
+    <DateAdded>2026-04-17T19:24:36.4663529+02:00</DateAdded>
+  </FashionItem>
+</ArrayOfFashionItem>
