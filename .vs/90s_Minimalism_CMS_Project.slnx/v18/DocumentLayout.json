@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\datatablepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|c:\\users\\lenovo t480s\\desktop\\ftn\\treca godina\\hci\\projekat\\90s_minimalism_cms\\fixed_proj\\pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +39,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             },
             {
               "$type": "Document",
@@ -63,8 +67,7 @@
               "RelativeToolTip": "Pages\\AddEditItemPage.xaml.cs",
               "ViewState": "AgIAAO0BAAAAAAAAAAAAAOQBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T13:07:54.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T13:07:54.638Z"
             },
             {
               "$type": "Document",
@@ -75,8 +78,7 @@
               "ToolTip": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Windows\\LoginWindow.xaml",
               "RelativeToolTip": "Windows\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-17T13:02:42.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T13:02:42.84Z"
             }
           ]
         },

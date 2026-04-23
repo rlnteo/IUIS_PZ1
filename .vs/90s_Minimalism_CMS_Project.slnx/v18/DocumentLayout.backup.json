@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|c:\\users\\lenovo t480s\\desktop\\ftn\\treca godina\\hci\\projekat\\90s_minimalism_cms\\fixed_proj\\pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|c:\\users\\lenovo t480s\\desktop\\ftn\\treca godina\\hci\\projekat\\90s_minimalism_cms\\fixed_proj\\pages\\datatablepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\datatablepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|c:\\users\\lenovo t480s\\desktop\\ftn\\treca godina\\hci\\projekat\\90s_minimalism_cms\\fixed_proj\\pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|solutionrelative:pages\\addedititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCB18936-5C3A-487B-8C35-417954D7E400}|90s_Minimalism_CMS_Project.csproj|C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,26 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DataTablePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\DataTablePage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\DataTablePage.xaml.cs",
               "ToolTip": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\DataTablePage.xaml.cs",
               "RelativeToolTip": "Pages\\DataTablePage.xaml.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAuwGgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T17:01:56.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddEditItemPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\AddEditItemPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\AddEditItemPage.xaml.cs",
               "ToolTip": "C:\\Users\\Lenovo T480s\\Desktop\\ftn\\treca godina\\hci\\projekat\\90s_Minimalism_CMS\\fixed_proj\\Pages\\AddEditItemPage.xaml.cs",
               "RelativeToolTip": "Pages\\AddEditItemPage.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwCMBAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAO0BAAAAAAAAAAAAAOQBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T13:07:54.638Z",
               "EditorCaption": ""
